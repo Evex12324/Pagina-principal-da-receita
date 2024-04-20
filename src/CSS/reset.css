@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Outfit", sans-serif;;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+}
+
+li {
+    list-style-position: inside;
+    list-style: none;
+}

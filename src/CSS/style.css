@@ -1,0 +1,127 @@
+::-webkit-scrollbar {
+    background-color: #F3E5D8;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 35px;
+}
+
+body {
+    background-color: #F3E5D8;
+}
+
+section {
+    background-color: #FFFCFD;
+    max-width: 700px;
+    margin: 70px auto;
+    padding: 32px;
+    border-radius: 17px;
+}
+
+.ovo-cuzido {
+    width: 100%;
+    border-radius: 13px;
+}
+
+.titulo h1 {
+    font-size: 30px;
+    color: #2C2B2A;
+    padding: 15px 0;
+}
+
+.tempo {
+    background-color: #ffeaf6;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+.tempo h3 {
+    color: #802B4C;
+    font-weight: 600;
+}
+
+.tempo ul {
+    list-style: none;
+}
+
+.tempo ul li {
+    margin: 10px 0;
+}
+
+.tempo ul li::before {
+    color: #802B4C;
+}
+
+.ingredientes {
+    border-bottom: solid 1px #c1c1bc;
+    padding-bottom: 25px;
+}
+
+.ingredientes h1 {
+    margin-bottom: 12px;
+}
+
+.ingredientes ul li {
+    margin: 7px 0;
+}
+
+.instrucoes {
+    border-bottom: solid 1px #c1c1bc;
+    padding: 35px 0;
+}
+
+.instrucoes ul {
+    counter-reset: numeros;
+}
+
+.instrucoes ul li {
+    margin-top: 20px;
+    display: flex;
+}
+
+.instrucoes ul li::before {
+    content: counter(numeros)". ";
+    counter-increment: numeros;
+}
+
+.nutricao {
+    margin-top: 30px;
+}
+
+.nutricao .subtitulo {
+    margin: 25px 0;
+}
+
+.nutricao div {
+    border-bottom: solid 1px #c1c1bc;
+    padding: 15px 0;
+    display: flex;
+}
+
+.nutricao div p {
+    width: 50%;
+}
+
+.nutricao div strong {
+    color: #884A31;
+}
+
+h1 {
+    color: #884A31;
+    font-weight: 500;
+}
+
+strong {
+    color: #3e3e3d;
+}
+
+li::before {
+    content: '\2022';
+    margin-right: 25px;
+    margin-left: 5px;
+    color: #884A31;
+    font-size: 20px;
+}
